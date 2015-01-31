@@ -80,7 +80,6 @@ app.controller("songController",  function($scope, $stateParams, $http, $ionicSl
 
     initialize();
     $scope.currentTrack = 1;
-    $scope.landscape = false;
 
     function initialize() {
       $scope.navigation = false;
